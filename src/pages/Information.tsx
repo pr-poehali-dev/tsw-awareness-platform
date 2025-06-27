@@ -48,8 +48,8 @@ const Information = () => {
           <div className="grid gap-8">
             <div className="bg-white rounded-xl border border-slate-200 p-8">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Icon name="Info" size={24} className="text-sky-600" />
+                <div className="w-12 h-12 bg-rose-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Info" size={24} className="text-rose-600" />
                 </div>
                 <div>
                   <h2 className="text-2xl font-semibold text-slate-900 mb-4">
@@ -113,7 +113,7 @@ const Information = () => {
                     </div>
 
                     {article.status === "Переведено" && (
-                      <button className="flex items-center text-sky-600 text-sm font-medium hover:text-sky-700">
+                      <button className="flex items-center text-rose-600 text-sm font-medium hover:text-rose-700">
                         <Icon name="Download" size={16} className="mr-2" />
                         Скачать перевод
                       </button>

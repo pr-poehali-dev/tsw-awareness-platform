@@ -22,7 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-sky-500 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-rose-500 rounded-lg flex items-center justify-center">
                 <Icon name="Heart" size={20} className="text-white" />
               </div>
               <h1 className="text-xl font-semibold text-slate-900">
@@ -39,8 +39,8 @@ const Layout = ({ children }: LayoutProps) => {
                     to={item.path}
                     className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                       isActive
-                        ? "bg-sky-50 text-sky-700"
-                        : "text-slate-600 hover:text-sky-600 hover:bg-slate-50"
+                        ? "bg-rose-50 text-rose-700"
+                        : "text-slate-600 hover:text-rose-600 hover:bg-slate-50"
                     }`}
                   >
                     <div className="flex items-center space-x-2">

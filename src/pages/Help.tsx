@@ -137,7 +137,7 @@ const Help = () => {
           </div>
 
           {/* Полезные советы */}
-          <div className="mt-8 bg-sky-50 border border-sky-200 rounded-xl p-8">
+          <div className="mt-8 bg-rose-50 border border-rose-200 rounded-xl p-8">
             <h3 className="text-xl font-semibold text-slate-900 mb-4">
               Общие рекомендации
             </h3>

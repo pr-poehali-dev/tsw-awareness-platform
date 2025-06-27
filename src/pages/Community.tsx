@@ -53,8 +53,8 @@ const Community = () => {
           {!isRegistered ? (
             <div className="max-w-md mx-auto bg-white rounded-xl border border-slate-200 p-8 mb-12">
               <div className="text-center mb-6">
-                <div className="w-16 h-16 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Users" size={32} className="text-sky-600" />
+                <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Users" size={32} className="text-rose-600" />
                 </div>
                 <h2 className="text-2xl font-semibold text-slate-900 mb-2">
                   Присоединяйтесь к сообществу
@@ -73,7 +73,7 @@ const Community = () => {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-rose-500"
                     placeholder="your@email.com"
                     required
                   />
@@ -81,7 +81,7 @@ const Community = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-sky-600 text-white py-3 rounded-lg font-medium hover:bg-sky-700 transition-colors"
+                  className="w-full bg-rose-600 text-white py-3 rounded-lg font-medium hover:bg-rose-700 transition-colors"
                 >
                   Зарегистрироваться
                 </button>
@@ -142,7 +142,7 @@ const Community = () => {
                     <h2 className="text-2xl font-semibold text-slate-900">
                       Последние обсуждения
                     </h2>
-                    <button className="bg-sky-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-sky-700 transition-colors">
+                    <button className="bg-rose-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-rose-700 transition-colors">
                       Создать тему
                     </button>
                   </div>
@@ -168,7 +168,7 @@ const Community = () => {
                         </div>
 
                         <div className="flex items-center justify-between">
-                          <button className="text-sky-600 text-sm font-medium hover:text-sky-700">
+                          <button className="text-rose-600 text-sm font-medium hover:text-rose-700">
                             Читать обсуждение
                           </button>
                           <span className="text-xs text-slate-500">

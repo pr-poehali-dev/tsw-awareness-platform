@@ -104,11 +104,11 @@ const Resources = () => {
             {/* Telegram каналы */}
             <div className="bg-white rounded-xl border border-slate-200 p-8">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-rose-100 rounded-lg flex items-center justify-center">
                   <Icon
                     name="MessageCircle"
                     size={20}
-                    className="text-blue-600"
+                    className="text-rose-600"
                   />
                 </div>
                 <h2 className="text-2xl font-semibold text-slate-900">
@@ -135,7 +135,7 @@ const Resources = () => {
                     </p>
                     <a
                       href={channel.url}
-                      className="inline-flex items-center text-blue-600 text-sm font-medium hover:text-blue-700"
+                      className="inline-flex items-center text-rose-600 text-sm font-medium hover:text-rose-700"
                     >
                       <Icon name="ExternalLink" size={16} className="mr-2" />
                       Присоединиться
@@ -171,7 +171,7 @@ const Resources = () => {
                   </p>
                   <a
                     href={resource.url}
-                    className="inline-flex items-center text-sky-600 text-sm font-medium hover:text-sky-700"
+                    className="inline-flex items-center text-rose-600 text-sm font-medium hover:text-rose-700"
                   >
                     <Icon name="ExternalLink" size={16} className="mr-2" />
                     Открыть ресурс

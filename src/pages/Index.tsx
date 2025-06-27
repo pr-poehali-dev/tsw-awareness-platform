@@ -9,7 +9,7 @@ const Index = () => {
       title: "Что такое TSW?",
       description: "Основная информация о синдроме отмены топических стероидов",
       link: "/information",
-      color: "bg-blue-50 border-blue-200 hover:border-blue-300",
+      color: "bg-rose-50 border-rose-200 hover:border-rose-300",
     },
     {
       title: "Научные исследования",
@@ -49,7 +49,7 @@ const Index = () => {
                 <p className="text-slate-600 text-sm leading-relaxed">
                   {item.description}
                 </p>
-                <div className="mt-4 flex items-center text-sky-600 text-sm font-medium">
+                <div className="mt-4 flex items-center text-rose-600 text-sm font-medium">
                   <span>Подробнее</span>
                   <Icon name="ArrowRight" size={16} className="ml-2" />
                 </div>
